@@ -2,8 +2,6 @@
 Pyspark BDD Features
 
 1. Basic Pyspark
-2. Pyspark DF Schema 
-3. Pyspark Kafka
-4. Pyspark S3
-5. Pyspark Iceberg
-6. Pyspark DynamoDB
+2. Basic Pyspark DF Schema 
+3. Pyspark Streaming ie Kafka, etc
+4. Pyspark AWS Resources
