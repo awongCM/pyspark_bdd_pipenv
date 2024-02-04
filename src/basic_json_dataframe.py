@@ -10,3 +10,7 @@ def read_json_to_dataframe(spark: SparkSession, jsonlFile: str) -> DataFrame:
 
 def get_total_row_count(dataFrame: DataFrame):
     return dataFrame.count()
+
+def convert_to_lower_case(dataFrame: DataFrame) -> DataFrame:
+    df = dataFrame.withColumn("name", lower(dataFrame["name"]))
+    return df
